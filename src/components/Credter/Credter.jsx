@@ -5,17 +5,27 @@ import PropTypes from 'prop-types'
 
 
 const Credter = ({credter}) => {
-    const {course_name} = credter;
+    const {credits, course_name,remaining, totalPrice} = credter;
     
    
   
     return (
       
-        <div className="flex flex-col justify-center mt-7 ">
-           
-            <li>{course_name}</li>
-           
-        </div>
+        <div  > 
+         
+          
+{/*           
+           {
+            credits.map((credter) => (
+              <li key={credter.id} >{course_name}</li>
+            ) )}  */}
+          <ul className='list-decimal '>
+
+          
+          <li key={credter.id} >{course_name}</li>
+          </ul>
+         </div>
+        
       
     );
   };

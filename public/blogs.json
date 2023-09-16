@@ -5,73 +5,73 @@
     {
         "id": 1,
       "course_name": "Introduction to C Programming",
-      "credit": 3,
+      "credit": 1,
       "image": "https://i.ibb.co/xjW419V/Rectangle-2-2.png",
-      "price": 49.99,
+      "price": 15000,
       "details": "Learn the fundamentals of C programming and start your journey into the world of programming."
     },
     {
         "id": 2,
       "course_name": "Introduction to Algorithms",
-      "credit": 4,
+      "credit": 2,
       "image": "https://i.ibb.co/xjN9DFh/Rectangle-2-3.png",
-      "price": 59.99,
+      "price": 25000,
       "details": "Explore the principles of algorithms and problem-solving techniques used in computer science."
     },
     {
         "id": 3,
       "course_name": "Introduction to C++ for DSA",
-      "credit": 3,
+      "credit": 10,
       "image": "https://i.ibb.co/xG0SgXd/Rectangle-2-4.png",
-      "price": 54.99,
+      "price": 10000,
       "details": "Master the basics of C++ programming with a focus on data structures and algorithms."
     },
     {
         "id": 4,
       "course_name": "Basic Data Structures",
-      "credit": 2,
+      "credit": 5,
       "image": "https://i.ibb.co/C08pT7X/Rectangle-3.png",
-      "price": 39.99,
+      "price": 35000,
       "details": "Learn essential data structures such as arrays, linked lists, and stacks."
     },
     {
         "id": 5,
       "course_name": "Introduction to OOP Python",
-      "credit": 3,
+      "credit": 5,
       "image": "https://i.ibb.co/9sktqNG/Rectangle-2.png",
-      "price": 49.99,
+      "price": 19000,
       "details": "Discover the principles of object-oriented programming (OOP) using Python."
     },
     {
         "id": 6,
       "course_name": "Software Engineering",
-      "credit": 4,
+      "credit": 2,
       "image": "https://i.ibb.co/71JDDJ4/Rectangle-2-5.png",
-      "price": 69.99,
+      "price": 23000,
       "details": "Gain insight into the software development lifecycle and best practices in software engineering."
     },
     {
         "id": 7,
       "course_name": "AWS, Cloud Computing",
-      "credit": 3,
+      "credit": 5,
       "image": "https://i.ibb.co/T2WMnnJ/Rectangle-3-1.png",
-      "price": 59.99,
+      "price": 35000,
       "details": "Learn about Amazon Web Services (AWS) and cloud computing technologies."
     },
     {
         "id": 8,
       "course_name": "Database (MySQL)",
-      "credit": 2,
+      "credit": 5,
       "image": "https://i.ibb.co/F7K9ztF/Rectangle-2-1.png",
-      "price": 44.99,
+      "price": 19000,
       "details": "Dive into the world of relational databases with a focus on MySQL."
     },
     {
         "id": 9,
       "course_name": "Problem-Solving Part",
-      "credit": 1,
+      "credit": 2,
       "image": "https://i.ibb.co/SPbGD6G/Rectangle-2-6.png",
-      "price": 29.99,
+      "price": 23000,
       "details": "Enhance your problem-solving skills with this comprehensive course."
     }
   ]
