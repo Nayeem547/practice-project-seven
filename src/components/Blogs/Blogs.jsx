@@ -2,7 +2,7 @@ import {useEffect} from 'react'
 import {useState } from 'react'
 import Blog from '../Blog/Blog';
 
-const Blogs = () => {
+const Blogs = ({handleAddToCredit}) => {
     const [Blogs, setBlogs] = useState([]);
     useEffect(() => {
         fetch('blogs.json')
@@ -11,10 +11,11 @@ const Blogs = () => {
       } , [])
   
     return (
-      <div className='grid grid-cols-3'>
+      <div className='grid grid-cols-3 gap-10'>
          
          {
-            Blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>) 
+            Blogs.map(blog => <Blog key={blog.id} blog={blog}  handleAddToCredit={handleAddToCredit}>
+               </Blog>) 
          }
       </div>
     );
