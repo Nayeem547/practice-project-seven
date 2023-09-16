@@ -9,9 +9,9 @@ const Credits = ({credits,remaining, totalPrice, totalCredit}) => {
     
     return (
       
-        <div className="card w-96 bg-base-100 shadow-xl h-[450px] ">
+        <div className="card w-80 lg:w-96 bg-base-100 shadow-xl h-[450px] mt-7">
             <div class="card-body">
-             <h2 className="text-2xl text-[#2F80ED] font-bold">Credit Hour Remaining {remaining}hr</h2> 
+             <h2 className=" text-xl  lg:text-2xl text-[#2F80ED] font-bold">Credit Hour Remaining {remaining}hr</h2> 
 
              <h2 className='text-3xl font-medium border-t  '>Course Name</h2>
 

@@ -61,7 +61,7 @@ function App() {
     <>
     
       <Header></Header>
-     <div className='flex justify-center gap-10 mt-10'>
+     <div className='flex  flex-col  lg:flex-row justify-center lg:gap-10 mt-10'>
      <Blogs handleAddToCredit={handleAddToCredit}></Blogs>
 
       <Credits Credter={Credter} credits={credits} remaining={remaining} totalPrice={totalPrice} totalCredit={totalCredit} ></Credits>
