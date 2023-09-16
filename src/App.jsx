@@ -1,17 +1,23 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+
 
 import './App.css'
+import Blogs from './components/Blogs/Blogs'
+import Header from './components/Header/Header';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setcount] = useState([]);
+
+  
 
   return (
     <>
-      
-      <h1>Vite + React</h1>
+      <Header></Header>
+     
+      <Blogs></Blogs>
      
     </>
   )
 }
 
-export default App
+export default App;
