@@ -6,7 +6,10 @@ import Blogs from './components/Blogs/Blogs'
 import Header from './components/Header/Header';
 import Credits from './components/Credits/Credits';
 import Credter from './components/Credter/credter';
-import '@sweetalert2/themes/dark/dark.scss';
+// import '@sweetalert2/themes/dark/dark.scss';
+
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2'
 
 
 function App() {
@@ -22,7 +25,11 @@ function App() {
     let Amount = blog.price;
     let count = blog.credit;
     if (isExist) {
-     return alert("alrady booked");
+      Swal.fire({
+        icon: 'warning',
+        title: 'Oops...',
+        text: 'Already Selected',
+      });
     } else {
       credits.forEach((item) =>{
         count += item.credit;
@@ -35,7 +42,6 @@ function App() {
           icon: 'error',
           title: 'Oops...',
           text: 'No Credits Here',
-          footer: '<a href="">Why do I have this issue?</a>'
         });
       } else{
         settotalCredit(count)

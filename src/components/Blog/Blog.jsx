@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'; 
-import vector from '../../assets/img/Vector.png'
+import vector from '../../assets/img/dollar-sign 1.png'
 import frame from '../../assets/img/Frame.png'
 import { prototype } from 'postcss/lib/node';
 

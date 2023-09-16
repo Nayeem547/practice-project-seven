@@ -11,7 +11,7 @@ const Credter = ({credter}) => {
   
     return (
       
-        <div  > 
+        <div className=' pl-4 li ' > 
          
           
 {/*           
@@ -22,7 +22,7 @@ const Credter = ({credter}) => {
           <ul className='list-decimal '>
 
           
-          <li key={credter.id} >{course_name}</li>
+          <li  key={credter.id} >{course_name}</li>
           </ul>
          </div>
         
